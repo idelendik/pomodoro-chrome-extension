@@ -1,4 +1,4 @@
-const MESSAGE_PREFIX = "POMODORO";
+const MESSAGE_PREFIX = "ANOTHER_POMODORO";
 
 const message_target_internal = {
     OFFSCREEN: "OFFSCREEN",
@@ -15,8 +15,11 @@ const message_type_internal = {
 }
 const MESSAGE_TYPE = Object.freeze(message_type_internal);
 
+const BADGE_COLOR = "#8c47b3";
+
 export {
     MESSAGE_PREFIX,
     MESSAGE_TARGET,
     MESSAGE_TYPE,
+    BADGE_COLOR,
 }
